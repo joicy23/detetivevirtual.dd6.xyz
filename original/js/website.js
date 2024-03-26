@@ -1,0 +1,1 @@
+function toggleMobileMenu(){var e=document.getElementById("mobileMenu");"block"===e.style.display?e.style.display="none":e.style.display="block"}function changeCountry(){var e=document.getElementById("pCountry").value.toLowerCase(),n=window.location.pathname.split("/");n[1]=e,window.location.pathname=n.join("/")}
